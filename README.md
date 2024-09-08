@@ -1,11 +1,13 @@
-1. Project Title
-2. Introduction
-3. Dataset - describe variables' meaning
-5. Project Structure
-6. Methodology
-7. Results - include visualizations, evaluations
-8. Analysis - describe insightful parts of findings
-9. Challenges
-10. Future Work - include the 0th col as a feature, encoded
-11. Conclusions
-12. License
+# Computer Hardware Investigation
+1. Introduction <br><br>
+   This project investigates CPU performance for various CPU models from multiple prominent manufacturers during the 1980s. It explores popular manufacturers and best performing manufacturers, and builds a model to predict CPU performance based on important features. <br><br>
+3. Data and Context <br><br>
+   - description of predictor variables and their meaning and influence on CPU performance <br><br>
+4. Project Structure and Methodology <br><br>
+5. Results and Analysis <br><br>
+   - visualizations, evaluations, describe insightful parts of findings <br><br>
+6. Challenges <br><br>
+7. Future Work <br><br>
+   - include the 0th col as a feature, encoded <br><br>
+11. Conclusions <br><br>
+12. License <br><br>
