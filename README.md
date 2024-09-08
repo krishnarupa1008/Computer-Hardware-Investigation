@@ -10,6 +10,7 @@
 7. Future Work <br><br>
    - include the 0th col as a feature, encoded
    - repeat CPU performance investigation using current data (mid-2020s)
+   - determine feature weights to see which impacted performance most and least
    - compare my model's MAE, MSE, RMSE with those of the article's authors' ERP predictions <br><br>
 11. Conclusions <br><br>
 12. License <br><br>
