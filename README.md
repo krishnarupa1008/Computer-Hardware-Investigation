@@ -11,6 +11,7 @@
    - Model:
    - MYCT:
    - MMIN:
+   - MMAX
    - e <br><br>
 5. Project Structure and Methodology <br><br>
 6. Results and Analysis <br><br>
