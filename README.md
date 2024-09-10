@@ -6,13 +6,17 @@
    Feldmesser, J. (1987). Computer Hardware [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5830D.<br><br>
 
    Explanations of the columns present in this dataset are as follows:
-   - description of predictor variables and their meaning and influence on CPU performance
+   - (description of predictor variables and their meaning and influence on CPU performance)
    - Vendor Name:
    - Model:
    - MYCT:
    - MMIN:
-   - MMAX
-   - e <br><br>
+   - MMAX:
+   - CACH:
+   - CHMIN:
+   - CHMAX:
+   - PRP:
+   - ERP: <br><br>
 5. Project Structure and Methodology <br><br>
 6. Results and Analysis <br><br>
    - visualizations, evaluations, describe insightful parts of findings <br><br>
