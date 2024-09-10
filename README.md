@@ -1,6 +1,6 @@
 # Computer Hardware Investigation
 1. Introduction <br><br>
-   This project investigates CPU performance for various CPU models from multiple prominent manufacturers during the 1980s. It explores popular manufacturers and best performing manufacturers, and builds a model to predict CPU performance based on important features. <br><br>
+   This project investigates CPU performance for various CPU models produced by prominent manufacturers during the 1980s. It explores the differences in performance amongst the most popular manufacturers in the dataset, as well as amongst the best performing manufacturers in the dataset. It explores the distributions of the numerical features in the dataset, looks at statistical characteristics of those features, and builds multiple predictive models designed to predict CPU performance based on important features. Finally, of the built models, the optimal model for predicting CPU performance is selected. <br><br>
 3. Data and Context <br><br>
    - description of predictor variables and their meaning and influence on CPU performance <br><br>
 4. Project Structure and Methodology <br><br>
