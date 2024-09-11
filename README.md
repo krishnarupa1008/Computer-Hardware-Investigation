@@ -19,7 +19,8 @@
    - ERP: <br><br>
 5. Project Structure and Methodology <br><br>
 6. Results and Analysis <br><br>
-   - visualizations, evaluations, describe insightful parts of findings
+   - visualizations, evaluations
+   - outline major findings and describe insightful parts of findings
    - Impact: <br><br>
 7. Challenges <br><br>
 8. Future Work <br><br>
