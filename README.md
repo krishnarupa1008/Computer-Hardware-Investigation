@@ -6,33 +6,33 @@
    Feldmesser, J. (1987). Computer Hardware [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5830D.<br><br>
 
    Explanations of the columns present in this dataset are as follows:
-   - (description of predictor variables and their meaning and influence on CPU performance)
-   - Vendor Name:
-   - Model:
-   - MYCT:
-   - MMIN:
-   - MMAX:
-   - CACH:
-   - CHMIN:
-   - CHMAX:
-   - PRP:
-   - ERP: <br><br>
+   - Vendor Name: categorical variable containing the names of the CPU manufacturers contained in this dataset.
+   - Model Name: categorical variable containing the names of the models for each CPU in the dataset.
+   - MYCT: Machine Cycle Time - numerical variable measured in nanoseconds. The time it takes CPU to complete 1 cycle.
+   - MMIN: Main Memory Minimum - numerical variable measured in kilobytes. The minimum amount of memory the CPU can use.
+   - MMAX: Main Memory Maximum - numerical variable measured in kilobytes. The maximum amount of memory the CPU can use.
+   - CACH: Cache Memory - numerical variable measured in kilobytes. The amount of cache memory the CPU has.
+   - CHMIN: Minimum Channels - numerical variable measured in units. The smallest number of paths for data transfer the CPU can use.
+   - CHMAX: Maximum Channels - numerical variable measured in units. The largest number of paths for data transfer the CPU can use.
+   - PRP: Published Relative Performance - the target variable that we aim to predict.
+   - ERP: Estimated Relative Performance - a prediction on the target variable that was provided by the authors of the article.<br><br>
 3. Project Structure and Methodology <br><br>
-   - Import dataset using the API of UCI
-   - Using metadata, check which dataframe/dictionary contained comprehensive information
-   - Perform Exploratory Data Analysis: look at distributions, popularity, correlations
-   - Use statistical visualizations to show correlations between CPU features, and differences in Vendor performance
-   - Make custom statistical function to better understand the distributions of each numerical feature
-   - Build predictive models: Ridge regression, Lasso Regression, Decision Trees, Random Forests
-   - Enhance the predictive ability of the best performing model
-   - Finally, select the overall best performing model<br><br>
+   - Imported dataset using the API of UCI.
+   - Using metadata, checked which dataframe/dictionary contained comprehensive information.
+   - Performed Exploratory Data Analysis: look at distributions, popularity, correlations.
+   - Used statistical visualizations to show correlations between CPU features, and differences in Vendor performance.
+   - Made custom statistical function to better understand the distributions of each numerical feature.
+   - Built predictive models: Ridge regression, Lasso Regression, Decision Trees, Random Forests.
+   - Enhanced the predictive ability of the best performing model.
+   - Finally, selected the overall best performing model after comparing the R^2 values of all created models. <br><br>
 4. Results and Analysis <br><br>
-   - Include visualizations and evaluation metrics
-   - Outline major findings and describe insightful parts of findings
-   - Impact: <br><br>
+   - All our visualizations (captioned) and evaluation metrics (interpretation provided).
+   - Outline major findings and describe insightful parts therein, as well as the business impact thereof. <br><br>
 5. Future Work <br><br>
-   - Include the encoded version of 0th col as a feature
-   - Repeat CPU performance investigation using current data (mid-2020s)
-   - Determine feature weights to see which impacted performance most and least
-   - Show the R^2 line plotted in a scatter plot
-   - Compare my model's MAE, MSE, RMSE with those of the article's authors' ERP predictions <br><br>
+   - Encode the 0th col (Vendor Names) - ordinal (label) or one-hot based on better performance.
+   - Use this Encoded feature as a predictor, as the manufacturer may have a statistically signigicant influence on the prediction of Relative Performance.
+   - Obtain current data (mid-2020s) for CPU performance metrics from current prominent CPU manufacturers.
+   - Repeat CPU performance investigation using that current data. Comment on comparisons, similarities, differences between the 1980s and 2020s.
+   - Display feature weights and elaborate on this; can be visualized.
+   - Elaborate on the R^2 value illustrating that our model explains __ percent of the variability found in the dataset.
+   - Compare my model's MAE, MSE, RMSE with those of the article's authors' ERP predictions. Visualize these comparisons. <br><br>
