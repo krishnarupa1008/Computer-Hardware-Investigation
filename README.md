@@ -21,14 +21,11 @@
    - Using metadata, checked which dataframe/dictionary contained comprehensive information.
    - Performed Exploratory Data Analysis: look at distributions, popularity, correlations.
    - Used statistical visualizations to show correlations between CPU features, and differences in Vendor performance.
-   - Made custom statistical function to better understand the distributions of each numerical feature.
-   - Built predictive models: Ridge regression, Lasso Regression, Decision Trees, Random Forests.
+   - Made a custom statistical function to better understand the characteristics of the distributions of each numerical feature, such as skewness.
+   - Built multiple machine learning predictive models: Ridge regression, Lasso Regression, Decision Trees, Random Forests.
    - Enhanced the predictive ability of the best performing model.
-   - Finally, selected the overall best performing model after comparing the R^2 values of all created models. <br><br>
-4. Results and Analysis <br><br>
-   - All our visualizations (captioned) and evaluation metrics (interpretation provided).
-   - Outline major findings and describe insightful parts therein, as well as the business impact thereof. <br><br>
-5. Future Work <br><br>
+   - Finally, the overall best performing model was selected after comparing the R^2 values of all created models. <br><br>
+4. Future Work <br><br>
    - Encode the 0th col (Vendor Names) - ordinal (label) or one-hot based on better performance.
    - Use this Encoded feature as a predictor, as the manufacturer may have a statistically signigicant influence on the prediction of Relative Performance.
    - Obtain current data (mid-2020s) for CPU performance metrics from current prominent CPU manufacturers.
